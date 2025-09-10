@@ -32,7 +32,7 @@ cell.forEach(cell => {
         if (gameOver) return;
         if (cell.classList.contains("taken")) return;
 
-        cell.innerText = currentPlayer === 0 ? "X": "O";
+        cell.innerText = currentPlayer === 0 ? "x": "o";
         cell.classList.add("taken");
 
         //checking the winner 
@@ -43,7 +43,7 @@ if (checkWinner()) {
 }
 //turning the switch if the match is not ended yet 
 currentPlayer = 1 - currentPlayer;
-message.innerText = `${players[currentPlayer]}, You're up`;
+message.innerText = `${players[currentPlayer]}, you're up`;
 
     });
 });
