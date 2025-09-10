@@ -11,8 +11,8 @@ let gameOver = false;
 
 //submit button peh event listner lagate hai 
 submitBtn.addEventListener("click", () => {
-    const p1 =document.getElementById("player-1").value.trim();
-    const p2 = document.getElementById("player-2").value.trim();
+    const p1 =document.getElementById("player1").value.trim();
+    const p2 = document.getElementById("player2").value.trim();
 
     if (!p1 || !p2) {
         alert("Please Enter the Player Name for both the players");
