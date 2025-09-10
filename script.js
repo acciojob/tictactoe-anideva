@@ -37,7 +37,7 @@ cell.forEach(cell => {
 
         //checking the winner 
 if (checkWinner()) {
-    message.innerText = `${players[currentPlayer]}, Congratulations you won the match (party kab dega?)`;
+    message.innerText = `${players[currentPlayer]}, Congratulations you won!)`;
     gameOver = true;
     return;
 }
